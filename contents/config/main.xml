@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name="plasma_livingnotes"/>
+  <group name="General">
+    <entry name="notesJson" type="String">
+      <default>[]</default>
+    </entry>
+    <entry name="notificationState" type="String">
+      <default>{}</default>
+    </entry>
+    <entry name="fadePreset" type="String">
+      <default>medium</default>
+    </entry>
+    <entry name="defaultPriority" type="String">
+      <default>MED</default>
+    </entry>
+    <entry name="enableNotifications" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="defaultLayout" type="String">
+      <default>grid</default>
+    </entry>
+  </group>
+</kcfg>
